@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "tool": "run_bash",
+      "pattern": "git branch -D barulahpokoknya\n\ngit checkout -b barulahpokoknya\n\ngit add .\n\ngit commit -m \"penambahan beberapa hal sesuai instruksi\"\n\ngit push origin barulahpokoknya"
+    },
+    {
+      "tool": "run_bash",
+      "pattern": "git branch -D barulahpokoknya && git checkout -b barulahpokoknya && git add . && git commit -m \"penambahan beberapa hal sesuai instruksi\" && git push origin barulahpokoknya"
+    }
+  ]
+}
