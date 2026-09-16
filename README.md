@@ -1,6 +1,6 @@
 # 🧺 E-Londri — Sistem Manajemen & Kasir Laundry Digital
 
-![Laravel Version](https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge\&logo=laravel)
+![Laravel Version](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge\&logo=laravel)
 ![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=for-the-badge\&logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge\&logo=mysql)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
