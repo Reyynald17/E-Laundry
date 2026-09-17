@@ -1,6 +1,6 @@
 # 🧺 E-Londri — Sistem Manajemen & Kasir Laundry Digital
 
-![Laravel Version](https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge\&logo=laravel)
+![Laravel Version](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge\&logo=laravel)
 ![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=for-the-badge\&logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge\&logo=mysql)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
@@ -89,13 +89,13 @@ Pastikan perangkat sudah memiliki:
 ### 2. Clone Repository
 
 ```bash
-git clone https://github.com/Reyynald17/E-Laundry/tree/barulahpokoknya
+git clone -b barulahpokoknya https://github.com/Reyynald17/E-Laundry/
 ```
 
 Masuk ke folder proyek:
 
 ```bash
-cd elondri-pengayaan
+cd E-Laundry
 ```
 
 ### 3. Install Dependensi
@@ -126,7 +126,7 @@ Buka file `.env`, kemudian sesuaikan konfigurasi database:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=db_elondri
+DB_DATABASE=db_elaundry
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -134,7 +134,7 @@ DB_PASSWORD=
 Buat database dengan nama:
 
 ```text
-db_elondri
+db_elaundry
 ```
 
 ### 6. Migrasi & Seeding Data
@@ -269,12 +269,6 @@ docs/E-Londri_API.postman_collection.json
 2. **201 Created** — Berhasil membuat transaksi baru dengan perhitungan total harga otomatis.
 3. **422 Unprocessable Entity** — Menampilkan error ketika data yang dikirim tidak lengkap.
 4. **404 Not Found** — Menampilkan error ketika ID transaksi tidak ditemukan.
-
----
-
-## 📄 Lisensi
-
-Proyek **E-Londri** menggunakan lisensi **MIT**.
 
 ---
 
